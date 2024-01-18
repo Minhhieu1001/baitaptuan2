@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .wrapper {
+        height: 800px;
+        width: 1000px;
+        background-color: aqua;
+        margin: 0px auto;
+    }
+    
+    .header {
+        background-image: url(download.jfif);
+        height: 100px;
+        width: 100%;
+    }
+    
+    .wrapper .nav ul {
+        display: inline-flex;
+        list-style-type: none;
+    }
+    
+    .wrapper .nav ul li {
+        height: 30px;
+        width: 100px;
+        margin: 35px;
+        position: relative;
+        background-color: coral;
+        border-radius: 40px;
+        text-align: center;
+    }
+    
+    .wrapper .nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: 800;
+    }
+    
+    .wrapper .nav ul li:hover {
+        background: blueviolet;
+    }
+    
+    .wrapper .nav ul li .sub-menu {
+        display: none;
+    }
+    
+    .wrapper .nav ul li:hover .sub-menu {
+        display: block;
+        position: absolute;
+        margin: 10px;
+        /* left: -70px; */
+    }
+</style>
+
+<body>
+
+    <div class="wrapper">
+        <div class="header"></div>
+        <div class="nav">
+            <ul class="menu">
+
+                <li>
+                    <a href=""></a>item1
+                    <ul class="sub-menu">
+
+                        <li>
+                            <a href=""></a>ITEM1.1</li>
+
+                        <li>
+                            <a href=""></a>ITEM1.2</li>
+
+                        <li>
+                            <a href=""></a>ITEM1.3</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href=""></a>item2
+                    <ul class="sub-menu">
+
+                        <li>
+                            <a href=""></a>ITEM2.1</li>
+
+                        <li>
+                            <a href=""></a>ITEM2.2</li>
+
+                        <li>
+                            <a href=""></a>ITEM2.3</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href=""></a>item3
+                    <ul class="sub-menu">
+
+                        <li>
+                            <a href=""></a>ITEM3.1</li>
+
+                        <li>
+                            <a href=""></a>ITEM3.2</li>
+
+                        <li>
+                            <a href=""></a>ITEM3.3</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href=""></a>item4
+                    <ul class="sub-menu">
+
+                        <li>
+                            <a href=""></a>ITEM4.1</li>
+
+                        <li>
+                            <a href=""></a>ITEM4.2</li>
+
+                        <li>
+                            <a href=""></a>ITEM4.3</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href=""></a>item5
+                    <ul class="sub-menu">
+
+                        <li>
+                            <a href=""></a>ITEM5.1</li>
+
+                        <li>
+                            <a href=""></a>ITEM5.2</li>
+
+                        <li>
+                            <a href=""></a>ITEM5.3</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <div class="content"></div>
+        <div class="footer"></div>
+
+
+    </div>
+</body>
+
+</html>
